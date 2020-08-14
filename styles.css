@@ -1,0 +1,36 @@
+.page{
+    display: flex;
+    width: 320px;
+}
+
+.header{
+     background: #E5E5E5;
+}
+
+
+.header__logo {
+    width: 156px;
+    height: 36px;
+    left: 16px;
+    top: 20px;
+}
+
+.header__lang-link{
+    position: absolute;
+    width: 22px;
+    height: 24px;
+    left: 243px;
+    top: 30px;
+
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 24px;
+/* identical to box height, or 133% */
+
+    text-align: right;
+    text-decoration-line: underline;
+    color: #FFFFFF;
+}
+
