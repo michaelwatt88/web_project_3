@@ -1,26 +1,35 @@
 .page{
-    display: flex;
-    width: 320px;
+    width: 100%;
+    background-color: #2a2c30;
 }
 
-.header{
-     background: #E5E5E5;
+.header{     
+     display: flex;
+     direction: row;
+}
+
+.header__navbar{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
 }
 
 
 .header__logo {
     width: 156px;
     height: 36px;
-    left: 16px;
-    top: 20px;
+    margin: 0;
+    margin-left: 16px;
+    margin-top: 20px;
+    margin-bottom: 50px;
 }
 
 .header__lang-link{
-    position: absolute;
     width: 22px;
     height: 24px;
-    left: 243px;
-    top: 30px;
+    margin-left: 71px;
+    margin-top: 30px;
+    margin-bottom: 52px;
 
     font-family: Inter;
     font-style: normal;
@@ -28,9 +37,65 @@
     font-size: 18px;
     line-height: 24px;
 /* identical to box height, or 133% */
-
-    text-align: right;
     text-decoration-line: underline;
     color: #FFFFFF;
 }
 
+.header__lang-link_es{
+    width: 22px;
+    height: 24px;
+    margin-left: 18px;
+    margin-top: 30px;
+    margin-bottom: 52px;
+
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 24px;
+/* identical to box height, or 133% */
+    text-decoration-line: underline;
+    color: #FFFFFF;
+}
+
+.lead{
+    display: flex;
+    flex-direction: column;
+}
+
+.lead__title{
+    width: 288px;
+    height: 88px;
+    margin: 50px 16px 0px 16px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 44px;
+    /* or 110% */
+
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+.lead__subtitle{
+    width: 288px;
+    height: 40px;
+    margin: 16px 16px 0px 16px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    /* or 125% */
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+.lead__image{
+    width: 320px;
+    height: 200px;
+    margin: 40px 0px 0px 0px;
+}
