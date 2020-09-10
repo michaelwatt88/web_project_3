@@ -99,3 +99,80 @@
     height: 200px;
     margin: 40px 0px 0px 0px;
 }
+
+.lead__caption{
+    width: 183px;
+    height: 14px;
+    margin: 8px 121px 0px 16px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 14px;
+/* identical to box height, or 140% */
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    color: #FFFFFF;  
+}
+
+.intro{
+    margin: 64px 0px 0px 16px;
+}
+
+.intro__title{
+width: 288px;
+height: 105px;
+left: 16px;
+font-family: Inter;
+font-style: normal;
+font-weight: 900;
+font-size: 32px;
+line-height: 35px;
+color: #FFFFFF;
+}
+
+.intro__text{
+    margin-top: 40px;
+    width: 288px;
+    height: 90px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 30px;
+    color: #FFFFFF;
+}
+
+.text {
+    height: 468px; 
+    margin-top: 30px;
+    font-size: 16px;
+    line-height: 26px; 
+}
+
+.intro__list{
+    list-style: none;
+    margin-top: 31px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 18px;
+    color: #FFFFFF;
+}
+
+.photo-grid{
+    width: 288px;
+    height: 2724px;
+    margin: 63px 16px 0px 16px;
+    display: inline-grid;
+    grid-row-gap: 12px;
+}
+
+.photo-grid__item{
+    list-style-image: none;
+    width: 288px;
+    height: 216px;
+    margin: 0;
+}
+
