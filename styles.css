@@ -176,3 +176,130 @@ color: #FFFFFF;
     margin: 0;
 }
 
+.places{
+    width: 320px;
+    height: 5178px;
+    margin-top: 65px;
+    display: grid;
+    grid-row-gap: 47px;
+}
+
+.place{
+    width: 320px;
+    left: 0px;
+}
+
+.place__title{
+    width: 288px;
+    height: 35px;
+    margin-left: 16px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 35px;
+    color: #FFFFFF;
+}
+
+.place__image{
+    width: 320px;
+    height: 320px;
+    left: 0px;
+    margin-top: 32px;
+    margin-bottom: 8px;
+}
+
+.place__paragraph{
+    width: 288px;
+    margin-left: 16px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    color: #FFFFFF;
+    margin-top: 24px;
+}
+
+.cover{
+    width: 320px;
+    height: 200px;
+    left: 0px;
+    right: 0px;
+    position: relative;
+    text-align: center;
+    color: white;
+    margin-top: 64px;
+}
+
+.cover__background{
+    width: 320px;
+    height: 200px;
+    opacity: 0.3;
+}
+
+.cover__title{
+    position: absolute;
+    width: 288px;
+    height: 35px;
+    top: 51px;
+    right: 16px;
+    bottom: 114px;
+    left: 16px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 35px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.cover__subtitle{
+    position: absolute;
+    width: 288px;
+    height: 48px;
+    left: 16px;
+    top: 102px;
+    bottom: 50px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.footer{
+    width: 168px;
+    height: 198px;
+    margin-top: 64px;
+    margin-left: 16px;
+    display: grid;   
+}
+
+.footer__link{
+    margin-bottom: 32px;
+    width: 63px;
+    height: 24px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 24px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.footer__copyright{
+    width: 168px;
+    height: 14px;
+    margin: 16px 136px 24px 0px; 
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 14px;
+    color: #FFFFFF;
+}
