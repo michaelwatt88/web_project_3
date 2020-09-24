@@ -8,6 +8,8 @@
      direction: row;
 }
 
+
+
 .header__navbar{
     display: flex;
     flex-direction: row;
@@ -23,6 +25,8 @@
     margin-top: 20px;
     margin-bottom: 50px;
 }
+
+
 
 .header__lang-link{
     width: 22px;
@@ -57,6 +61,34 @@
     text-decoration-line: underline;
     color: #FFFFFF;
 }
+
+@media screen and (min-width: 768px) {
+    .header {
+        width: 720px;
+        height: 44px;
+        margin-top: 38px;
+        background: blue;
+    }
+    .header__logo{
+        width: 190px;
+        height: 44px;
+    }
+
+    .header__lang-link{
+        width: 29px;
+        height: 28px;
+        margin: 46px 18px 54px 456px;
+    }
+
+    .header__lang-link_es{
+        width: 27px;
+        height: 28px;
+        margin: 46px 24px 54px 18px;
+    }
+
+  }
+
+
 
 .lead{
     display: flex;
@@ -114,6 +146,69 @@
     text-transform: uppercase;
     color: #FFFFFF;  
 }
+
+@media screen and (min-width: 768px) {
+    .lead {
+        width: 768px;
+        height: 862px;
+        background: blue;
+        
+    }
+
+    .lead__title{
+    width: 720px;
+    height: 200px;
+    margin: 50px 24px 32px 24px;
+
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 96px;
+    line-height: 100px;
+    /* or 104% */
+
+    text-align: center;
+
+    color: #FFFFFF;
+    }
+
+    .lead__subtitle{
+        width: 29px;
+        height: 28px;
+        margin: 0px 74px 56px 74px;
+        font-family: Inter;
+        font-size: 30px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 36px;
+        letter-spacing: 0em;
+        text-align: center;
+
+    }
+
+    .lead__image{
+        width: 768px;
+        height: 480px;
+        margin-bottom: 0px 0px 8px 0px; 
+    }
+
+    .lead__caption{
+        height: 14px;
+        width: 183px;
+        margin: 8px 561px 88px 24px;
+        font-family: Inter;
+        font-size: 10px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 14px;
+        letter-spacing: 0.15em;
+        text-align: left;
+
+
+    }
+
+  }
+
 
 .intro{
     margin: 64px 0px 0px 16px;
