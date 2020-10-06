@@ -341,6 +341,25 @@ color: #FFFFFF;
     margin: 0;
 }
 
+@media screen and (min-width: 768px){
+    .photo-grid{
+        width: 720px;
+        height: 1664px;
+        margin: 92px 24px 0px 24px;
+        display: grid;
+        grid-template-columns: auto 1fr ;
+        grid-template-rows: auto 1fr ;
+        grid-gap: 14px 14px;
+    }
+
+    .photo-grid__item{
+        width: 352px;
+        height: 264px;
+        margin: 0;
+    }
+
+}
+
 .places{
     width: 320px;
     height: 5178px;
