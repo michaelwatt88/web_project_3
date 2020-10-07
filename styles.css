@@ -362,7 +362,7 @@ color: #FFFFFF;
 
 .places{
     width: 320px;
-    height: 5178px;
+    height: auto;
     margin-top: 65px;
     display: grid;
     grid-row-gap: 47px;
@@ -370,6 +370,7 @@ color: #FFFFFF;
 
 .place{
     width: 320px;
+    height: auto;
     left: 0px;
 }
 
@@ -408,7 +409,7 @@ color: #FFFFFF;
 @media screen and (min-width: 768px){
     .places{
         width: 720px;
-        height: 3148px;
+        height: auto;
         margin: 88px 24px 0px 24px;
     }
 
@@ -421,7 +422,7 @@ color: #FFFFFF;
         grid-column-gap: 28px;        
     }
 
-    .maine__column1{
+    .place__column{
         width: 34opx;
         height: auto;
     }
@@ -496,28 +497,13 @@ color: #FFFFFF;
 .cover{
     width: 320px;
     height: 200px;
-    left: 0px;
-    right: 0px;
-    position: relative;
-    text-align: center;
-    color: white;
-    margin-top: 64px;
-}
-
-.cover__background{
-    width: 320px;
-    height: 200px;
-    opacity: 0.3;
+    margin: 64px 0px 0px 0px;
 }
 
 .cover__title{
-    position: absolute;
     width: 288px;
     height: 35px;
-    top: 51px;
-    right: 16px;
-    bottom: 114px;
-    left: 16px;
+    margin: 51px 16px 0px 16px;
     font-family: Inter;
     font-style: normal;
     font-weight: 900;
@@ -528,12 +514,9 @@ color: #FFFFFF;
 }
 
 .cover__subtitle{
-    position: absolute;
     width: 288px;
     height: 48px;
-    left: 16px;
-    top: 102px;
-    bottom: 50px;
+    margin: 16px 16px 0px 16px;
     font-family: Inter;
     font-style: normal;
     font-weight: normal;
@@ -541,6 +524,75 @@ color: #FFFFFF;
     line-height: 16px;
     text-align: center;
     color: #FFFFFF;
+}
+
+
+.cover__background{
+    width: 320px;
+    height: 200px;
+    margin: 64px 0px 0px 0px;
+    background: url(images/cover-route-66.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.cover__overlay{
+    width: 320px;
+    height: 200px;
+    margin: 64px 0px 0px 0px;
+    background: #2A2C2F;
+    opacity: 0.3;
+}
+
+
+@media screen and (min-width: 768px){
+    .cover{
+        width: 768px;
+        height: 480px;
+        margin: 0px;
+    }
+
+    .cover__overlay{
+        width: 768px;
+        height: 480px;
+        margin: 0px;
+        background: #2A2C2F;
+        opacity: 0.3;   
+    }
+
+    .cover__background{   
+        width: 768px;
+        height: 480px;
+        margin: 0px;
+    }
+
+    .cover__title{
+        height: 76px;
+        width: 656px;
+        margin: 153px 56px 0px 56px;
+        font-family: Inter;
+        font-size: 72px;
+        font-style: normal;
+        font-weight: 900;
+        line-height: 76px;
+        letter-spacing: 0em;
+        text-align: center;
+
+    }
+
+    .cover__subtitle{
+        height: 66px;
+        width: 320px;
+        margin: 261px 224px 0px 224px;
+        font-family: Inter;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 22px;
+        letter-spacing: 0em;
+        text-align: center;
+
+    }
 }
 
 .footer{
