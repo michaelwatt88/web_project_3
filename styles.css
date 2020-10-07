@@ -405,6 +405,94 @@ color: #FFFFFF;
     margin-top: 24px;
 }
 
+@media screen and (min-width: 768px){
+    .places{
+        width: 720px;
+        height: 3148px;
+        margin: 88px 24px 0px 24px;
+    }
+
+    .place{
+        width: 720px;
+        height: auto;
+        margin: 0 24px 0px 24px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-column-gap: 28px;        
+    }
+
+    .maine__column1{
+        width: 34opx;
+        height: auto;
+    }
+
+    .place__title{
+        width: 340px;
+        height: 46px;
+        font-family: Inter;
+        font-style: normal;
+        font-weight: 900;
+        font-size: 42px;
+        line-height: 46px;
+        color: #FFFFFF;
+        margin: 0px;
+    }
+
+    .place__image{
+        width: 340px;
+        height: 340px;
+        margin-top: 48px 0px 0px 0px;
+    }
+
+    .place__website{
+        width: 352px;
+        height: 46px;
+        margin-bottom: 24px;
+    }
+
+    .place__url-heading{
+        width: 352px;
+        height: 12px;
+        font-family: Inter;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 12px;
+        line-height: 12px;
+        /* identical to box height, or 100% */
+        letter-spacing: 0.2em;
+        color: #AAAAAA;
+    }
+
+    .place__link{
+        width: 352px;
+        height: 22px;
+        margin: 12px 0px 0px 0px;
+        font-family: Inter;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 22px;
+        /* identical to box height, or 122% */
+        text-decoration-line: underline;
+        color: #FFFFFF;     
+    }
+
+    .place__paragraph{
+        width: 352px;
+        height: auto;
+        margin: 24px 0px;
+        font-family: Inter;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 163%;
+        /* or 26px */
+        color: #FFFFFF;
+    }
+
+
+}
+
 .cover{
     width: 320px;
     height: 200px;
