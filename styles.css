@@ -490,20 +490,20 @@ color: #FFFFFF;
         /* or 26px */
         color: #FFFFFF;
     }
-
-
 }
 
 .cover{
     width: 320px;
     height: 200px;
-    margin: 64px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
 }
 
 .cover__title{
+    position: relative;
     width: 288px;
     height: 35px;
-    margin: 51px 16px 0px 16px;
+    left: 16px;
+    top: 51px;
     font-family: Inter;
     font-style: normal;
     font-weight: 900;
@@ -514,9 +514,11 @@ color: #FFFFFF;
 }
 
 .cover__subtitle{
+    position: relative;
     width: 288px;
     height: 48px;
-    margin: 16px 16px 0px 16px;
+    left: 16px;
+    top: 102px;
     font-family: Inter;
     font-style: normal;
     font-weight: normal;
@@ -533,7 +535,7 @@ color: #FFFFFF;
     margin: 64px 0px 0px 0px;
     background: url(images/cover-route-66.jpg);
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
 }
 
 .cover__overlay{
@@ -549,7 +551,8 @@ color: #FFFFFF;
     .cover{
         width: 768px;
         height: 480px;
-        margin: 0px;
+        padding: 0px;
+        /**margin: 0px;**/
     }
 
     .cover__overlay{
@@ -557,19 +560,23 @@ color: #FFFFFF;
         height: 480px;
         margin: 0px;
         background: #2A2C2F;
-        opacity: 0.3;   
+        padding: 0px;
+        /**opacity: 0.3;**/   
     }
 
     .cover__background{   
         width: 768px;
         height: 480px;
-        margin: 0px;
+        padding: 0px;
+        /**margin: 0px;**/
     }
 
     .cover__title{
+        position: relative;
         height: 76px;
         width: 656px;
-        margin: 153px 56px 0px 56px;
+        top: 153px;
+        left: 56px;
         font-family: Inter;
         font-size: 72px;
         font-style: normal;
@@ -581,9 +588,11 @@ color: #FFFFFF;
     }
 
     .cover__subtitle{
+        position: relative;
         height: 66px;
         width: 320px;
-        margin: 261px 224px 0px 224px;
+        top: 261px;
+        left: 224px;
         font-family: Inter;
         font-size: 18px;
         font-style: normal;
@@ -591,7 +600,7 @@ color: #FFFFFF;
         line-height: 22px;
         letter-spacing: 0em;
         text-align: center;
-
+        margin-top: 0px;
     }
 }
 
