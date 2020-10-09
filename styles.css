@@ -552,6 +552,7 @@ color: #FFFFFF;
         width: 768px;
         height: 480px;
         padding: 0px;
+        margin-bottom: 88px;
         /**margin: 0px;**/
     }
 
@@ -635,4 +636,38 @@ color: #FFFFFF;
     font-size: 14px;
     line-height: 14px;
     color: #FFFFFF;
+}
+
+@media screen and (min-width: 768px){
+    .footer{
+        display: inline;
+        width: 720px;
+        height: 18px;
+        margin: 88px 24px 24px 24px;
+        }
+    .footer__link{
+        width: 42px;
+        height: 18px;
+        margin-right: 18px;
+        font-family: Inter;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 18px;
+        color: #FFFFFF;
+    }
+    .footer__copyright{
+        width: 168px;
+        height: 16px;
+        margin: 0px;
+        padding-left: 341px;
+        font-family: Inter;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 16px;
+        text-align: right;
+        color: #FFFFFF;
+        display: inline;
+    }
 }
