@@ -534,7 +534,8 @@ color: #FFFFFF;
         font-size: 18px;
         line-height: 22px;
         /* identical to box height, or 122% */
-        text-decoration-line: underline;       
+        text-decoration-line: underline;  
+        color:white;     
     }
 
     .place__link:hover{
@@ -687,39 +688,6 @@ color: #FFFFFF;
     margin: 0px 0px 0px 0px;
 }
 
-.cover__title{
-    position: relative;
-    width: 288px;
-    height: 35px;
-    left: 16px;
-    top: 51px;
-    font-weight: 900;
-    font-size: 32px;
-    line-height: 35px;
-    text-align: center;
-}
-
-.cover__subtitle{
-    position: relative;
-    width: 288px;
-    height: 48px;
-    left: 16px;
-    top: 102px;
-    font-size: 14px;
-    line-height: 16px;
-    text-align: center;
-}
-
-
-.cover__background{
-    width: 320px;
-    height: 200px;
-    margin: 64px 0px 0px 0px;
-    background: url(images/cover-route-66.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
 .cover__overlay{
     width: 320px;
     height: 200px;
@@ -732,6 +700,45 @@ color: #FFFFFF;
     background: #2A2C2F;
     opacity: 0.8;
 }
+
+.cover__title{
+    width: 288px;
+    height: 35px;
+    padding-left: 16px;
+    padding-top: 51px;
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 35px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    opacity: 1;
+}
+
+.cover__subtitle{
+    position: relative;
+    width: 288px;
+    height: 48px;
+    left: 16px;
+    top: 102px;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+}
+
+
+.cover__background{
+    width: 320px;
+    height: 200px;
+    margin: 64px 0px 0px 0px;
+    background: url(images/cover-route-66.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
 
 
 @media screen and (min-width: 768px){
