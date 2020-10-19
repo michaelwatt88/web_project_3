@@ -5,7 +5,11 @@
     font-style: normal;
     font-weight: normal;
     color: #FFFFFF;
+    max-width: 100%;
+    overflow-y: hidden;
 }
+
+
 
 .header{     
      display: flex;
