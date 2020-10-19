@@ -1,4 +1,36 @@
-.header{     
+.header{    
+    width: 320px; 
+    height: 36px;
+    margin: 20px 16px 50px 16px;
     display: flex;
     direction: row;
+}
+
+@media screen and (min-width: 768px) {
+    .header {
+        width: 768px;
+        height: auto;
+        margin: 34px 24px 50px 24px;
+        background: #2a2c30;    
+    }
+}
+
+@media screen and (min-width: 1024px){
+    .header {     
+        display: flex;
+        flex-direction: row;
+        width: 928px;
+        height: 44px;
+        margin-left: 48px;
+    }
+}
+
+@media screen and (min-width: 1280px){
+    .header{     
+        display: flex;
+        direction: row;
+        width: 984px;
+        height: 44px;
+        margin-left: 148px;
+    }
 }
