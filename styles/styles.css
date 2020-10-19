@@ -723,7 +723,6 @@ color: #FFFFFF;
         width: 768px;
         height: 480px;
         padding: 0px;
-        margin-bottom: 88px;
         /**margin: 0px;**/
     }
 
@@ -744,11 +743,9 @@ color: #FFFFFF;
     }
 
     .cover__title{
-        position: relative;
         height: 76px;
         width: 656px;
-        top: 153px;
-        left: 56px;
+        margin: 153px 56px 32px 56px;
         font-size: 72px;
         font-weight: 900;
         line-height: 106%;
@@ -757,11 +754,9 @@ color: #FFFFFF;
     }
 
     .cover__subtitle{
-        position: relative;
         height: 66px;
         width: 320px;
-        top: 261px;
-        left: 224px;
+        margin: 0px 224px 153px 224px;
         font-size: 18px;
         font-weight: 400;
         line-height: 122%;
