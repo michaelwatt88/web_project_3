@@ -891,7 +891,8 @@ color: #FFFFFF;
 
 @media screen and (min-width: 1024px){
     .footer{
-        display: inline;
+        display: flex;
+        flex-direction: row;
         width: 928px;
         height: 18px;
         margin: 92px 48px 24px 48px;
@@ -941,5 +942,4 @@ color: #FFFFFF;
         text-align: right;
         display: inline;
     }
-}
 }
