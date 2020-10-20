@@ -14,8 +14,8 @@ This project was assigned to Mike Watt during the Yandex Practicum and was compl
 **Figma**
 
 * [Link to the mockup and design on Figma](https://www.figma.com/file/xM9rNsdK4iNcFJmDZho3Aw/Sprint-3%3A-From-Portland-to-Portland-%2F-desktop-%2B-mobile?node-id=500%3A0)
-* [Link to the github repo](https://github.com/michaelwatt88/web_project_3)
-* 
+* [Link to the github repo](https://michaelwatt88.github.io/web_project_3/)
+*
 
 **Images**
 
