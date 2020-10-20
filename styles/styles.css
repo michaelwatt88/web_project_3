@@ -7,6 +7,7 @@
     font-style: normal;
     font-weight: normal;
     color: #FFFFFF;
+    overflow-x: hidden;
 }
 
 
@@ -44,8 +45,8 @@
 
 @media screen and (min-width: 768px) {
     .header {
-        width: 768px;
-        height: auto;
+        width: 720px;
+        height: 44px;
         margin: 34px 24px 50px 24px;
         background: #2a2c30;    
     }
@@ -61,8 +62,10 @@
     .header__lang-link{
         width: 74px;
         height: auto;
-        padding-left: 456px;
-        padding-right: 24px;
+        margin-top: 10px;
+        margin-left: 456px;
+        font-size: 24px;
+        line-height: 117%;
   }
 }
   
@@ -72,15 +75,11 @@
         flex-direction: row;
         width: 928px;
         height: 44px;
-        margin-left: 48px;
+        margin: 34px 48px 0px 48px;
     }
 
    .header__lang-link{
-       margin: 46px 0px 0px 656px;
-   }
-
-   .header__lang-link_es{
-       margin: 46px 0px 0px 18px;
+       margin: 10px 0px 0px 664px;
    }
     
 } 
@@ -91,7 +90,7 @@
         direction: row;
         width: 984px;
         height: 44px;
-        margin-left: 148px;
+        margin: 34px 148px 0px 148px;
     }
 
     .header__logo{
@@ -99,7 +98,7 @@
     }
 
    .header__lang-link{
-       margin: 12px 0px 0px 720px;
+       margin: 0px 0px 0px 720px;
    }    
 }
 
@@ -662,7 +661,7 @@ color: #FFFFFF;
 .cover{
     width: 320px;
     height: 200px;
-    margin: 64px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
     background-image: url("../images/cover-route-66.jpg");
     background-repeat: no-repeat;
     background-size: cover;
@@ -702,7 +701,7 @@ color: #FFFFFF;
 .cover__subtitle{
     width: 288px;
     height: 48px;
-    margin: 16px 16px 50px 16px;
+    padding: 16px 16px 50px 16px;
     left: 16px;
     top: 102px;
     font-size: 14px;
@@ -722,8 +721,8 @@ color: #FFFFFF;
     .cover{
         width: 768px;
         height: 480px;
-        padding: 0px;
-        /**margin: 0px;**/
+        margin: 0;
+        padding: 0;
     }
 
     .cover__overlay{
@@ -745,7 +744,7 @@ color: #FFFFFF;
     .cover__title{
         height: 76px;
         width: 656px;
-        margin: 153px 56px 32px 56px;
+        padding: 153px 56px 32px 56px;
         font-size: 72px;
         font-weight: 900;
         line-height: 106%;
@@ -756,7 +755,7 @@ color: #FFFFFF;
     .cover__subtitle{
         height: 66px;
         width: 320px;
-        margin: 0px 224px 153px 224px;
+        padding: 0px 224px 153px 224px;
         font-size: 18px;
         font-weight: 400;
         line-height: 122%;
@@ -783,19 +782,25 @@ color: #FFFFFF;
     }
 
     .cover__title{
-        position: relative;
-        top: 233px;
-        left: 184px;
+        width: 656px;
+        height: 76px;
+        padding: 233px 184px 0px 184px;
+        font-weight: 900;
+        font-size: 72px;
+        line-height: 106%;
+        /* identical to box height, or 106% */
     }
 
     .cover__subtitle{
-        position: relative;
-        top: 341px;
-        left: 352px;
+        width: 320px;
+        height: 66px;
+        padding: 32px 352px 233px 352px;
+        font-size: 18px;
+        line-height: 122%;
     }
 }
 
-@media screen and (min-width: 1024px){
+@media screen and (min-width: 1280px){
     .cover{
         width: 1184px;
         height: 740px;
@@ -813,15 +818,21 @@ color: #FFFFFF;
     }
 
     .cover__title{
-        position: relative;
-        top: 283px;
-        left: 264px;
+        width: 656px;
+        height: 76px;
+        padding: 283px 264px 32px 264px;
+        font-size: 72px;
+        line-height: 106%;
+        /* identical to box height, or 106% */
     }
 
     .cover__subtitle{
-        position: relative;
-        top: 391px;
-        left: 432px;
+        width: 320px;
+        height: 66px;
+        padding: 0px 432px 283px 432px;
+        font-size: 18px;
+        line-height: 122%;
+        /* or 122% */
     }
 }
 
