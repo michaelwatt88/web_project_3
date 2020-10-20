@@ -1,0 +1,44 @@
+
+.place__link{
+    display: none;
+}
+
+@media screen and (min-width: 768px){
+    .place__link{
+        display: inline-block;
+        width: 352px;
+        height: 22px;
+        margin: 12px 0px 0px 0px;
+        font-size: 18px;
+        line-height: 122%;
+        /* identical to box height, or 122% */
+        text-decoration-line: underline;  
+        color:white;     
+    }
+
+    .place__link:hover{
+        opacity: 0.8;
+    }
+}
+
+@media screen and (min-width: 1024px){
+    .place__link{
+        width: 456px;
+        height: 22px;
+        font-size: 18px;
+        line-height: 122%;
+        /* identical to box height, or 122% */
+        text-decoration-line: underline;
+    }
+}
+
+@media screen and (min-width: 1280px){
+    .place__link{
+        width: 456px;
+        height: 22px;
+        font-size: 18px;
+        line-height: 122%;
+        /* identical to box height, or 122% */
+        text-decoration-line: underline;
+    }
+}
