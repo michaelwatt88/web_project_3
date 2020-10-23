@@ -1,32 +1,31 @@
-.places{
-    width: 320px;
+.places {
+  width: 320px;
+  height: auto;
+  margin-top: 65px;
+  display: grid;
+  grid-row-gap: 48px;
+}
+
+@media screen and (min-width: 768px) {
+  .places {
+    width: 720px;
     height: auto;
-    margin-top: 65px;
-    display: grid;
-    grid-row-gap: 47px;
+    margin: 88px 24px 0px 24px;
+  }
 }
 
-@media screen and (min-width: 768px){
-    .places{
-        width: 720px;
-        height: auto;
-        margin: 88px 24px 0px 24px;
-    }
-
+@media screen and (min-width: 1024px) {
+  .places {
+    width: 928px;
+    height: auto;
+    margin: 92px 0px 0px 48px;
+  }
 }
 
-@media screen and (min-width: 1024px){
-    .places{
-        width: 928px;
-        height: auto;
-        margin: 92px 0px 0px 48px;
-    }
-}
-
-@media screen and (min-width: 1280px){
-    .places{
-        width: 984px;
-        height: auto;
-        margin: 92px 0px 0px 148px;
-    }
+@media screen and (min-width: 1280px) {
+  .places {
+    width: 984px;
+    height: auto;
+    margin: 92px 0px 0px 148px;
+  }
 }
