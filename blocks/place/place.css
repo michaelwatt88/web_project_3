@@ -6,7 +6,7 @@
 @import url("./__url-heading/place__url-heading.css");
 
 .place {
-  left: 0px;
+  margin: 0;
 }
 
 .place__bottom {
