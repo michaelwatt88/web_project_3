@@ -3,6 +3,7 @@
   font-size: 32px;
   line-height: 109%;
   color: #ffffff;
+  margin-left: 0;
 }
 
 @media screen and (min-width: 768px) {
