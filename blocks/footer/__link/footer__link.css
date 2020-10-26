@@ -13,15 +13,14 @@
 
 @media screen and (min-width: 768px) {
   .footer__link {
-    margin-right: 18px;
     font-size: 16px;
     line-height: 113%;
+    margin-right: 18px;
   }
 }
 
 @media screen and (min-width: 1024px) {
   .footer__link {
-    margin-right: 18px;
     font-size: 16px;
     line-height: 113%;
   }
@@ -29,7 +28,6 @@
 
 @media screen and (min-width: 1280px) {
   .footer__link {
-    margin-right: 18px;
     font-size: 16px;
     line-height: 113%;
   }

@@ -1,5 +1,6 @@
 .footer__copyright {
-  margin-top: 16px;
+  width: 168px;
+  margin-top: 0;
   font-size: 14px;
   line-height: 100%;
 }
