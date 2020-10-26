@@ -1,5 +1,5 @@
 .place__text {
-  margin-top: 0;
+  margin-top: 24px;
   display: grid;
   row-gap: 24px;
 }

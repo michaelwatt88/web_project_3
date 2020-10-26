@@ -1,16 +1,18 @@
 .header__lang-link {
+  width: 50px;
   font-size: 18px;
-  line-height: 133%;
+  line-height: 111%;
   /* identical to box height, or 133% */
   display: flex;
-  direction: row;
+  flex-direction: row;
   justify-content: space-between;
   text-decoration-line: underline;
   margin: 10px 0px 6px 71px;
 }
 
 .header__lang-link:hover {
-  color: #aaaaaa;
+  color: black;
+  opacity: 0.5;
 }
 
 @media screen and (min-width: 768px) {

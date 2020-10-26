@@ -4,32 +4,30 @@
 
 .intro {
   margin: 64px 0px 0px 16px;
+  width: 288px;
+  height: auto;
 }
 
 @media screen and (min-width: 768px) {
   .intro {
-    width: 720px;
-    height: 543px;
-    margin-left: 24px;
-    padding-top: 88px;
-    display: inline-block;
+    max-width: 720px;
+    height: auto;
+    margin: 92px auto auto 24px;
   }
 }
 
 @media screen and (min-width: 1024px) {
   .intro {
     width: 690px;
-    height: 569px;
-    margin-left: 48px;
-    margin-top: 92px;
+    height: auto;
+    margin: 92px auto auto 48px;
   }
 }
 
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 1280px) {
   .intro {
     width: 690px;
-    height: 569px;
-    margin-left: 148px;
-    margin-top: 92px;
+    height: auto;
+    margin: 92px auto auto 148px;
   }
 }

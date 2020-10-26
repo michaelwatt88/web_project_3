@@ -6,14 +6,17 @@
 .lead {
   width: 320px;
   height: auto;
+  display: flex;
   text-align: center;
+  flex-direction: column;
+  justify-content: center;
 }
 
 @media screen and (min-width: 768px) {
   .lead {
     width: 768px;
     height: 862px;
-    margin-left: 48 px;
+    margin: auto auto auto 0px;
   }
 }
 
@@ -21,7 +24,7 @@
   .lead {
     width: 928px;
     height: auto;
-    margin-left: 48px;
+    margin: auto auto auto 48px;
   }
 }
 
@@ -29,7 +32,6 @@
   .lead {
     width: 984px;
     height: auto;
-    margin-left: 148px;
-    margin-top: 58px;
+    margin: auto auto auto 148px;
   }
 }
