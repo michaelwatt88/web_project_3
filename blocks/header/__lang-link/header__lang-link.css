@@ -4,13 +4,7 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-column-gap: 18px;
-  text-decoration-line: underline;
   list-style: none;
-}
-
-.header__lang-link li:hover {
-  color: black;
-  opacity: 0.5;
 }
 
 @media screen and (min-width: 768px) {

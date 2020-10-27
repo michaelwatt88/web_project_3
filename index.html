@@ -15,8 +15,8 @@
   <header class="header">
     <img src="images/logo.svg" class="header__logo" alt="header logo">
     <ul class="header__lang-link">
-      <li><a href="#">EN</a></li>
-      <li><a href="#">ES</a></li>
+      <li class="header__link"><a href="#">EN</a></li>
+      <li class="header__link"><a href="#">ES</a></li>
     </ul>
   </header>
 
@@ -44,10 +44,10 @@
       and asking him to sign your favorite book.
     </p>
     <ul class="intro__list">
-      <li>Distance (miles) <span>3,644</span></li>
-      <li>Travel time (days) <span>22</span></li>
-      <li>Highest point (feet) <span>9,613</span></li>
-      <li>Lowest point (feet) <span>-3</span></li>
+      <li >Distance (miles) <span class="intro__digits">3,644</span></li>
+      <li>Travel time (days) <span class="intro__digits">22</span></li>
+      <li>Highest point (feet) <span class="intro__digits">9,613</span></li>
+      <li>Lowest point (feet) <span class="intro__digits">-3</span></li>
     </ul>
   </section>
 
@@ -70,7 +70,7 @@
   <div class="place">
       <h2 class="place__title">Maine</h2>
       <div class="place__website">
-        <p class="place__url-heading">url</p>
+        <p class="place__url-heading">URL</p>
         <a href="https://global.llbean.com/shop/L.L.Bean-Continental-Rucksack/122952.html?bc=50-816&csp=f&feat=816-GN1" class="place__link">global.llbean.com</a>
       </div>
       <img src="images/place-maine.jpg" class="place__image" alt="picture of Maine">
@@ -84,7 +84,7 @@
   <div class="place">
       <h2 class="place__title">New Hampshire</h2>
       <div class="place__website">
-          <p class="place__url-heading">url</p>
+          <p class="place__url-heading">URL</p>
           <a href="https://www.timberland.com/timberlandpro.html" class="place__link">Timberland.com</a>
       </div>
       <img src="images/place-new-hampshire.jpg" class="place__image" alt="picture of New Hampshire">
@@ -98,7 +98,7 @@
   <div class="place">
       <h2 class="place__title">New York</h2>
       <div class="place__website">
-        <p class="place__url-heading">url</p>
+        <p class="place__url-heading">URL</p>
         <a href= https://www.ge.com/about-us class="place__link">ge.com</a>
       </div>
       <img src="images/place-new-york.jpg" class="place__image" alt="photo of New York">
@@ -112,7 +112,7 @@
   <div class="place">
       <h2 class="place__title">Erie,PA</h2>
       <div class="place__website">
-          <p class="place__url-heading">url</p>
+          <p class="place__url-heading">URL</p>
           <a href="https://www.fws.gov/refuge/erie" class="place__link">www.fws.gov</a>
       </div>    
       <img src="images/place-pennsylvania.jpg" class="place__image" alt="photo of Pennsylvania">
@@ -126,7 +126,7 @@
   <div class="place">
       <h2 class="place__title">Ohio</h2>
       <div class="place__website">
-          <p class="place__url-heading">url</p>
+          <p class="place__url-heading">URL</p>
           <a href="https://www.cedarpoint.com" class="place__link">cedarpoint.com</a>
       </div>
     <img src="images/place-ohio.jpg" class="place__image" alt="photo of Ohio"> 
@@ -149,11 +149,13 @@
 </main>
 
 <footer class="footer">
+  <nav class="footer__nav">
   <ul class="footer__links">
     <li><a href="https://yandex.com/maps" class="footer__link">Maps</a></li>
     <li><a href="https://yandex.com/weather/moscow" class="footer__link">Weather</a></li>
     <li><a href="https://calendar.yandex.ru" class="footer__link">Calendar</a></li>
   </ul>
+  </nav>
   <p class="footer__copyright">© 2020. Michael Watt</p>
 </footer>
    

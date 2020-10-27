@@ -1,0 +1,5 @@
+.header__link:hover {
+  color: black;
+  opacity: 0.5;
+  text-decoration-line: underline;
+}
