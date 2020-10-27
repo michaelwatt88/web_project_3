@@ -4,7 +4,7 @@
 @import url("./__caption/lead__caption.css");
 
 .lead {
-  width: 320px;
+  width: auto;
   height: auto;
   display: flex;
   text-align: center;
@@ -14,24 +14,24 @@
 
 @media screen and (min-width: 768px) {
   .lead {
-    width: 768px;
-    height: 862px;
-    margin: auto auto auto 0px;
+    width: auto;
+    height: auto;
+    margin: 50 16px 0 16px;
   }
 }
 
 @media screen and (min-width: 1024px) {
   .lead {
-    width: 928px;
+    width: auto;
     height: auto;
-    margin: auto auto auto 48px;
+    margin: auto 48px auto 48px;
   }
 }
 
 @media screen and (min-width: 1280px) {
   .lead {
-    width: 984px;
+    width: auto;
     height: auto;
-    margin: auto auto auto 148px;
+    margin: auto 148px auto 148px;
   }
 }

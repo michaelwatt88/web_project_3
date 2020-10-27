@@ -1,40 +1,29 @@
 @import url("./__lang-link/header__lang-link.css");
 @import url("./__logo/header__logo.css");
 
-.header{    
-    width: 320px; 
-    height: 36px;
-    margin: 20px 16px 50px 16px;
-    display: flex;
-    direction: row;
+.header {
+  width: auto;
+  height: auto;
+  margin: 20px 16px 50px 16px;
+  display: flex;
+  direction: row;
+  justify-content: space-between;
 }
-
 
 @media screen and (min-width: 768px) {
-   .header {
-       width: 720px;
-       height: 44px;
-       margin: 34px 24px 50px 24px;
-       background: #2a2c30;    
-   }
+  .header {
+    margin: 34px 24px 50px 24px;
+  }
 }
- 
-@media screen and (min-width: 1024px){
-   .header {     
-       display: flex;
-       flex-direction: row;
-       width: 928px;
-       height: 44px;
-       margin: 34px 48px 0px 48px;
-   } 
-} 
 
-@media screen and (min-width: 1280px){
-   .header{     
-       display: flex;
-       direction: row;
-       width: 984px;
-       height: 44px;
-       margin: 34px 148px 0px 148px;
-   }
+@media screen and (min-width: 1024px) {
+  .header {
+    margin: 34px 48px 0px 48px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .header {
+    margin: 34px 148px 0px 148px;
+  }
 }

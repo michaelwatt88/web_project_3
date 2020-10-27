@@ -1,14 +1,12 @@
 .footer__link {
-  margin-bottom: 32px;
   font-size: 24px;
   line-height: 100%;
   color: white;
   text-decoration: none;
-  text-align: left;
 }
 
 .footer__link:hover {
-  color: #aaaaaa;
+  opacity: 0.8;
 }
 
 @media screen and (min-width: 768px) {
@@ -16,19 +14,5 @@
     font-size: 16px;
     line-height: 113%;
     margin-right: 18px;
-  }
-}
-
-@media screen and (min-width: 1024px) {
-  .footer__link {
-    font-size: 16px;
-    line-height: 113%;
-  }
-}
-
-@media screen and (min-width: 1280px) {
-  .footer__link {
-    font-size: 16px;
-    line-height: 113%;
   }
 }
