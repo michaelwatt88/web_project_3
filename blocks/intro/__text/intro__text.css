@@ -6,9 +6,10 @@
   Align: Left
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 1280px) {
   .intro__text {
-    Font Size: 16px
-    Line Height: 163%
+    font-size: 24px;
+    line-height: 34px;
+    width: 690px;
   }
 }

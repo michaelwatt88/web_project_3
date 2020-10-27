@@ -15,16 +15,12 @@
 
 @media screen and (min-width: 1024px) {
   .lead__image {
-    width: auto;
     height: 580px;
-    margin: 0;
   }
 }
 
 @media screen and (min-width: 1280px) {
   .lead__image {
-    width: auto;
     min-height: 615px;
-    margin: 0;
   }
 }

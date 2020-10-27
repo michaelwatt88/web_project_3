@@ -6,8 +6,6 @@
   grid-template-columns: 1fr 1fr;
   grid-column-gap: 18px;
   text-decoration-line: underline;
-  padding: 0;
-  margin: 0;
   list-style: none;
 }
 

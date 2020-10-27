@@ -18,21 +18,3 @@
     opacity: 0.8;
   }
 }
-
-@media screen and (min-width: 1024px) {
-  .place__link {
-    font-size: 18px;
-    line-height: 122%;
-    /* identical to box height, or 122% */
-    text-decoration-line: underline;
-  }
-}
-
-@media screen and (min-width: 1280px) {
-  .place__link {
-    font-size: 18px;
-    line-height: 122%;
-    /* identical to box height, or 122% */
-    text-decoration-line: underline;
-  }
-}

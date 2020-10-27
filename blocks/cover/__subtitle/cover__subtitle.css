@@ -25,11 +25,3 @@
     line-height: 122%;
   }
 }
-
-@media screen and (min-width: 1280px) {
-  .cover__subtitle {
-    font-size: 18px;
-    line-height: 122%;
-    /* or 122% */
-  }
-}

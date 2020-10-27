@@ -18,10 +18,14 @@
     width: 720px;
     height: auto;
     margin-top: 32px;
-    margin-left: 0;
-    font-weight: bold;
-    font-size: 12px;
-    line-height: 150%;
-    /* or 150% */
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .intro__list {
+    position: absolute;
+    width: 690px;
+    height: auto;
+    margin-top: 32px;
   }
 }

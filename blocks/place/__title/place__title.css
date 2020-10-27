@@ -1,11 +1,11 @@
 .place__title {
+  max-width: 288px;
+  height: auto;
   font-weight: 900;
   font-size: 32px;
   line-height: 109%;
   margin-left: 16px;
   color: #ffffff;
-  max-width: 288px;
-  height: auto;
 }
 
 @media screen and (min-width: 768px) {

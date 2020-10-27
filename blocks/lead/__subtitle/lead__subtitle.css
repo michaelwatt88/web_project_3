@@ -14,15 +14,3 @@
     line-height: 120%;
   }
 }
-
-@media screen and (min-width: 1024px) {
-  .lead__subtitle {
-    margin: 32px auto 56px auto;
-  }
-}
-
-@media screen and (min-width: 1280px) {
-  .lead__subtitle {
-    margin: 32px auto 56px auto;
-  }
-}

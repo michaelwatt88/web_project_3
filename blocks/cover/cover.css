@@ -12,7 +12,6 @@
 
 @media screen and (min-width: 768px) {
   .cover {
-    width: 100%;
     min-height: 480px;
     margin-top: 88px;
     padding: 0;
@@ -29,9 +28,9 @@
 
 @media screen and (min-width: 1280px) {
   .cover {
-    width: auto;
-    /* height: 740px; */
+    max-width: 1184px;
     min-height: 740px;
-    margin: 116px 48px 0 48px;
+    margin: auto;
+    padding-top: 92px;
   }
 }

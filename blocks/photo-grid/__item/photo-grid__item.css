@@ -1,25 +1,27 @@
 .photo-grid__item {
   list-style-image: none;
-  width: auto;
+  width: 288px;
   height: 216px;
   margin: 0;
 }
 
 @media screen and (min-width: 768px) {
   .photo-grid__item {
-    width: auto;
+    width: 352px;
     height: 264px;
   }
 }
 
 @media screen and (min-width: 1024px) {
   .photo-grid__item {
+    width: 300px;
     height: 225px;
   }
 }
 
 @media screen and (min-width: 1280px) {
   .photo-grid__item {
+    width: 284px;
     height: 213px;
   }
 }

@@ -11,8 +11,6 @@
 
 @media screen and (min-width: 768px) {
   .intro {
-    width: auto;
-    height: auto;
     margin: 92px 24px auto 24px;
   }
 }
@@ -20,15 +18,14 @@
 @media screen and (min-width: 1024px) {
   .intro {
     width: 690px;
-    height: auto;
     margin: 92px 286px auto 48px;
   }
 }
 
 @media screen and (min-width: 1280px) {
   .intro {
-    width: 690px;
-    height: auto;
-    margin: 92px 442px auto 148px;
+    min-width: 984px;
+    margin: auto;
+    padding-top: 114px;
   }
 }

@@ -23,3 +23,11 @@
     margin: 92px 48px 24px 48px;
   }
 }
+
+@media screen and (min-width: 1024px) {
+  .footer {
+    min-width: 1184px;
+    margin: auto;
+    padding-top: 92px;
+  }
+}
