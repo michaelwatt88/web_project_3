@@ -1,17 +1,17 @@
 @import url("./__item/photo-grid__item.css");
 
 .photo-grid {
-  width: 288px;
+  width: auto;
   height: auto;
-  margin: 63px auto 0 16px;
+  margin: 63px 16px 0 16px;
   display: inline-grid;
-  grid-row-gap: 12px;
+  grid-gap: 12px 12px;
 }
 
 @media screen and (min-width: 768px) {
   .photo-grid {
-    width: 720px;
-    margin: 192px auto 0 24px;
+    width: auto;
+    margin: 192px 24px 0 24px;
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
@@ -21,21 +21,13 @@
 
 @media screen and (min-width: 1024px) {
   .photo-grid {
-    width: 928px;
-    height: auto;
-    margin: 192px auto 0px 48px;
-    display: grid;
+    margin: 192px 48px 0px 48px;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-gap: 14px 14px;
   }
 }
 
 @media screen and (min-width: 1280px) {
   .photo-grid {
-    width: 1184px;
-    height: auto;
-    margin-left: 48px;
-    display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-gap: 16px 16px;
   }

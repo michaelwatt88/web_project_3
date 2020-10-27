@@ -1,26 +1,14 @@
-.intro__text {
-  margin-top: 40px;
-  margin-left: 0;
-  font-size: 24px;
-  line-height: 125%;
-}
-
-.text {
-  margin-top: 30px;
-  font-size: 16px;
-  line-height: 26px;
+.intro__text{
+  Font Family: Inter
+  Font Style: Regular
+  Font Size: 16px
+  Line Height: 163%
+  Align: Left
 }
 
 @media screen and (min-width: 768px) {
   .intro__text {
-    font-size: 24px;
-    line-height: 142%;
-    /* or 142% */
-  }
-
-  .text {
-    font-size: 16px;
-    line-height: 163%;
-    /* or 26px */
+    Font Size: 16px
+    Line Height: 163%
   }
 }

@@ -1,18 +1,19 @@
 @import url("./__title/intro__title.css");
+@import url("./__subtitle/intro__subtitle.css");
 @import url("./__list/intro__list.css");
 @import url("./__text/intro__text.css");
 
 .intro {
-  margin: 64px 0px 0px 16px;
-  width: 288px;
+  margin: 64px 16px 0px 16px;
+  width: auto;
   height: auto;
 }
 
 @media screen and (min-width: 768px) {
   .intro {
-    max-width: 720px;
+    width: auto;
     height: auto;
-    margin: 92px auto auto 24px;
+    margin: 92px 24px auto 24px;
   }
 }
 
@@ -20,7 +21,7 @@
   .intro {
     width: 690px;
     height: auto;
-    margin: 92px auto auto 48px;
+    margin: 92px 286px auto 48px;
   }
 }
 
@@ -28,6 +29,6 @@
   .intro {
     width: 690px;
     height: auto;
-    margin: 92px auto auto 148px;
+    margin: 92px 442px auto 148px;
   }
 }

@@ -4,7 +4,7 @@
   line-height: 109%;
   color: #ffffff;
   text-align: left;
-  width: 288px;
+  width: auto;
   margin: 0 0 0 0;
 }
 
@@ -13,14 +13,14 @@
     font-weight: 900;
     font-size: 54px;
     line-height: 107%;
-    width: 720px;
+    width: auto;
     margin: 0 0 0 0;
   }
 }
 
 @media screen and (min-width: 1024px) {
   .intro__title {
-    width: 690px;
+    width: auto;
     margin: 0 0 0 0;
   }
 }
