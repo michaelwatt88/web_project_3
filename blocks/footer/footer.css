@@ -3,9 +3,9 @@
 @import url("./__copyright/footer__copyright.css");
 
 .footer {
-  width: auto;
-  height: auto;
-  margin: 64px 16px 24px 16px;
+  width: 168px;
+  height: 198px;
+  margin: 64px 136px 24px 16px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -13,6 +13,8 @@
 
 @media screen and (min-width: 768px) {
   .footer {
+    width: auto;
+    height: auto;
     flex-direction: row;
     margin: 88px 24px 24px 24px;
   }
