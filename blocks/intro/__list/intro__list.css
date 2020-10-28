@@ -10,7 +10,6 @@
 
 @media screen and (min-width: 768px) {
   .intro__list {
-    position: absolute;
     width: 720px;
     height: auto;
     margin-top: 32px;
@@ -19,7 +18,6 @@
 
 @media screen and (min-width: 1280px) {
   .intro__list {
-    position: absolute;
     width: 690px;
     height: auto;
     margin-top: 32px;

@@ -3,7 +3,7 @@
 .photo-grid {
   width: auto;
   height: auto;
-  margin: 63px 16px 0 16px;
+  margin: 64px 16px 0 16px;
   display: inline-grid;
   grid-gap: 12px 12px;
   text-align: center;
@@ -11,7 +11,7 @@
 
 @media screen and (min-width: 768px) {
   .photo-grid {
-    margin: 192px 24px 0 24px;
+    margin: 88px 24px 0 24px;
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
@@ -21,7 +21,7 @@
 
 @media screen and (min-width: 1024px) {
   .photo-grid {
-    margin: 192px 48px 0px 48px;
+    margin: 92px 48px 0px 48px;
     grid-template-columns: 1fr 1fr 1fr;
   }
 }

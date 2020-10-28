@@ -1,14 +1,16 @@
+@import url("./__logo/header__logo.css");
 @import url("./__lang-link/header__lang-link.css");
 @import url("./__link/header__link.css");
-@import url("./__logo/header__logo.css");
 
 .header {
   width: auto;
   height: auto;
   margin: 20px 16px 50px 16px;
   display: flex;
-  direction: row;
+  flex-direction: row;
   justify-content: space-between;
+  justify-items: center;
+  vertical-align: center;
 }
 
 @media screen and (min-width: 768px) {
