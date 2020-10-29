@@ -20,14 +20,14 @@
 
 @media screen and (min-width: 1024px) {
   .lead {
-    max-width: 984px;
-    margin: auto 48px auto 48px;
+    min-width: 984px;
+    margin: 50px 48px auto 48px;
   }
 }
 
 @media screen and (min-width: 1280px) {
   .lead {
     min-width: 984px;
-    margin: auto;
+    margin: 58px 148px auto 148px;
   }
 }

@@ -1,16 +1,25 @@
 @import url("./__item/photo-grid__item.css");
 
 .photo-grid {
-  width: auto;
-  height: auto;
   margin: 64px 16px 0 16px;
-  display: inline-grid;
-  grid-gap: 12px 12px;
-  text-align: center;
+}
+
+.photo-grid__list {
+  /**exact margins from Figma.**/
+
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 12px;
+}
+
+.photo-grid__list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
 }
 
 @media screen and (min-width: 768px) {
-  .photo-grid {
+  .photo-grid__list {
     margin: 88px 24px 0 24px;
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -20,18 +29,15 @@
 }
 
 @media screen and (min-width: 1024px) {
-  .photo-grid {
+  .photo-grid__list {
     margin: 92px 48px 0px 48px;
     grid-template-columns: 1fr 1fr 1fr;
   }
 }
 
 @media screen and (min-width: 1280px) {
-  .photo-grid {
-    max-width: 1184px;
+  .photo-grid__list {
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-gap: 16px 16px;
-    margin: auto;
-    padding-top: 250px;
   }
 }

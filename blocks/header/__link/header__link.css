@@ -1,5 +1,11 @@
-.header__link:active {
-  color: black;
-  opacity: 0.5;
-  text-decoration-line: underline;
+.header__link:hover {
+  opacity: 0.8;
+}
+
+.header__link_active {
+  text-decoration: underline;
+}
+
+.header__link_active:hover {
+  opacity: 0.8;
 }

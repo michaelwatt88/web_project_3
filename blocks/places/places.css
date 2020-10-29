@@ -3,26 +3,29 @@
   height: auto;
   margin-top: 65px;
   display: grid;
-  grid-row-gap: 48px;
+  grid-row-gap: 49px;
 }
 
 @media screen and (min-width: 768px) {
   .places {
     width: auto;
-    margin: 88px 24px 0px 24px;
+    margin: 88px 24px 0 24px;
+    grid-row-gap: 73px;
   }
 }
 
 @media screen and (min-width: 1024px) {
   .places {
     margin: 92px 48px 0px 48px;
+    grid-row-gap: 80px;
   }
 }
 
 @media screen and (min-width: 1280px) {
   .places {
     max-width: 984px;
-    margin: auto;
-    padding-top: 92px;
+    margin: 92px 148px 0 148px;
   }
 }
+
+/**removed top marings**/
