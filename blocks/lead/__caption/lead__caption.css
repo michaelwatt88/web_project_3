@@ -1,6 +1,5 @@
 .lead__caption {
-  width: 183px;
-  margin: 8px 121px 0px 16px;
+  margin: 8px auto 0px 16px;
   font-size: 10px;
   line-height: 140%;
   /* identical to box height, or 140% */
