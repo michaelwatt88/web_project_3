@@ -14,13 +14,13 @@
 
 @media screen and (min-width: 768px) {
   .lead {
-    margin: 50 16px 0 16px;
+    margin: 50px 16px 0 16px;
   }
 }
 
 @media screen and (min-width: 1024px) {
   .lead {
-    min-width: 984px;
+    min-width: 928px;
     margin: 50px 48px auto 48px;
   }
 }

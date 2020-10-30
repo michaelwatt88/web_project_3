@@ -1,6 +1,4 @@
 .intro__text {
-  font-family: "Inter", Arial, sans-serif;
-  font-style: regular;
   font-size: 16px;
   line-height: 163%;
   text-align: left;
@@ -8,8 +6,6 @@
 
 @media screen and (min-width: 1280px) {
   .intro__text {
-    font-size: 24px;
-    line-height: 34px;
-    width: 690px;
+    max-width: 690px;
   }
 }

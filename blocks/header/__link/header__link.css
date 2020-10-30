@@ -1,7 +1,5 @@
+@import url("./_active/header__link_active.css");
+
 .header__link:hover {
   opacity: 0.8;
-}
-
-.header__link_active {
-  text-decoration: underline;
 }
