@@ -1,7 +1,7 @@
 .places {
-  width: 320px;
+  min-width: 320px;
   height: auto;
-  margin-top: 65px;
+  margin-top: 64px;
   display: grid;
   grid-row-gap: 49px;
 }
@@ -24,7 +24,7 @@
 @media screen and (min-width: 1280px) {
   .places {
     max-width: 984px;
-    margin: 92px 148px 0 148px;
+    margin: 92px auto 0 auto;
   }
 }
 
