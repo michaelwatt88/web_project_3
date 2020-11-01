@@ -3,28 +3,25 @@
   font-weight: 900;
   font-size: 40px;
   line-height: 110%;
-  /* or 110% */
-  min-width: 288px;
+  margin: 0 16px 0 16px;
 }
 
 @media screen and (min-width: 768px) {
   .lead__title {
     font-size: 96px;
     line-height: 104%;
-    /* or 104% */
-    text-align: center;
-    min-width: 720px;
+    margin: 0 24px 0 24px;
   }
 }
 
 @media screen and (min-width: 1024px) {
   .lead__title {
-    margin: 50px auto;
+    margin: 0 104px 0 104px;
   }
 }
 
 @media screen and (min-width: 1280px) {
   .lead__title {
-    margin: 58px auto 0 auto;
+    margin: 0 132px 0 132px;
   }
 }
