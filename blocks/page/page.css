@@ -1,7 +1,5 @@
 .page {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
+  width: 100%;
   height: auto;
   background-color: #2a2c30;
   font-family: "Inter", Arial, sans-serif;
