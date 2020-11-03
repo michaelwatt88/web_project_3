@@ -6,6 +6,7 @@
 
 @media screen and (min-width: 768px) {
   .lead__image {
+    min-height: 480px;
     margin: 56px 0 0 0;
   }
 }

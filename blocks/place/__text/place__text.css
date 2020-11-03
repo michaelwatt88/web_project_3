@@ -1,7 +1,5 @@
 .place__text {
   margin: 32px 16px 0 16px;
-  display: grid;
-  row-gap: 25px;
   font-size: 16px;
   line-height: 163%;
 }
